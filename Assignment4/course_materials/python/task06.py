@@ -10,7 +10,7 @@ Original file is located at
 """
 
 !pip install rdflib
-github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2023-2024/master/Assignment4/course_materials"
+github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2024-2025/master/Assignment4/course_materials"
 
 """Read the RDF file as shown in class"""
 
