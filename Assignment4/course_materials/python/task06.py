@@ -28,7 +28,7 @@ g.add((ns.Researcher, RDF.type, RDFS.Class))
 for s, p, o in g:
   print(s,p,o)
 
-"""**TASK 6.1: Create a new class named "University"**
+"""**TASK 6.1: Create new classes for "School" and "University. Add an rdfs:label in Spanish"**
 
 """
 
@@ -44,24 +44,24 @@ for s, p, o in g:
 for s, p, o in g:
   print(s,p,o)
 
-"""**TASK 6.3: Create a new individual of Researcher named "Jane Smith"**"""
+"""**TASK 6.3: Create a new individual of Researcher named "Jane Smithers"**"""
 
 # TO DO
 # Visualize the results
 for s, p, o in g:
   print(s,p,o)
 
-"""**TASK 6.4: Add to the individual JaneSmith the email address, fullName, given and family names**"""
+"""**TASK 6.4: Add to the individual JaneSmithers the email address, fullName, given and family names. Use the https://schema.org vocabulary**"""
 
 # TO DO
 # Visualize the results
 
-"""**TASK 6.5: Add UPM as the university where John Smith works**"""
+"""**TASK 6.5: Add UPM as the university where John Smith works. Use the "https://example.org/ namespace**"""
 
 # TO DO
 # Visualize the results
 
-"""**Task 6.6: Add that Jown knows Jane using the FOAF vocabulary**"""
+"""**Task 6.6: Add that Jown knows Jane using the FOAF vocabulary. Make sure the relationship exists.**"""
 
 # TO DO
 # Visualize the results

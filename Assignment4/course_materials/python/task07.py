@@ -36,19 +36,24 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 # TO DO
 # Visualize the results
 
-"""**TASK 7.3: List all individuals of "Person" or "Animal" and all their properties including their class with RDFLib and SPARQL. You do not need to list the individuals of the subclasses of person**
+"""**TASK 7.3: List all individuals of just "Person" or "Animal". You do not need to list the individuals of the subclasses of person (in SPARQL only)**
 
 """
 
 # TO DO
 # Visualize the results
 
-"""**TASK 7.4:  List the name of the persons who know Rocky**"""
+"""**TASK 7.4:  List the name of the persons who know Rocky (in SPARQL only)**"""
 
 # TO DO
 # Visualize the results
 
-"""**Task 7.5: List the entities who know at least two other entities in the graph**"""
+"""**Task 7.5: List the name of those animals who know at least another animal in the graph (in SPARQL only)**"""
+
+# TO DO
+# Visualize the results
+
+"""**Task 7.6: List the age of all living things in descending order (in SPARQL only)**"""
 
 # TO DO
 # Visualize the results

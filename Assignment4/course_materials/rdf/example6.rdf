@@ -87,6 +87,16 @@
         <vcard-rdf:Family rdf:datatype="&xsd;string">Smith</vcard-rdf:Family>
         <foaf:knows rdf:resource="#JaneSmith"/>
         <foaf:knows rdf:resource="#SaraJones"/>
+        <foaf:knows rdf:resource="#Bugs"/>
+        <foaf:age rdf:datatype="&xsd;integer">10</foaf:age>
+    </Animal>
+
+    <Animal rdf:about="#Bugs">
+        <vcard-rdf:Given rdf:datatype="&xsd;string">Bugs</vcard-rdf:Given>
+        <foaf:knows rdf:resource="#JaneSmith"/>
+        <foaf:knows rdf:resource="#SaraJones"/>
+        <foaf:knows rdf:resource="#RockySmith"/>
+        <foaf:age rdf:datatype="&xsd;integer">2</foaf:age>
     </Animal>
 
     <Person rdf:about="#SaraJones">
@@ -95,12 +105,14 @@
         <vcard-rdf:Family rdf:datatype="&xsd;string">Jones</vcard-rdf:Family>
         <foaf:knows rdf:resource="#RockySmith"/>
         <foaf:knows rdf:resource="#JaneSmith"/>
+        <foaf:age rdf:datatype="&xsd;integer">22</foaf:age>
     </Person>
 
     <Person rdf:about="#JohnSmith">
         <vcard-rdf:Given rdf:datatype="&xsd;string">John</vcard-rdf:Given>
         <vcard-rdf:FN rdf:datatype="&xsd;string">John Smith</vcard-rdf:FN>
         <vcard-rdf:Family rdf:datatype="&xsd;string">Smith</vcard-rdf:Family>
+        <foaf:age rdf:datatype="&xsd;integer">20</foaf:age>
     </Person>
 	
 	<Researcher rdf:about="#JaneSmith">
@@ -109,12 +121,14 @@
         <vcard-rdf:Family rdf:datatype="&xsd;string">Smith</vcard-rdf:Family>
         <foaf:knows rdf:resource="#RockySmith"/>
         <foaf:knows rdf:resource="#SaraJones"/>
+        <foaf:age rdf:datatype="&xsd;integer">30</foaf:age>
     </Researcher>
 
     <Professor rdf:about="#JimGonzalez">
         <vcard-rdf:Given rdf:datatype="&xsd;string">Jim</vcard-rdf:Given>
         <vcard-rdf:FN rdf:datatype="&xsd;string">Jim Gonzalez</vcard-rdf:FN>
         <vcard-rdf:Family rdf:datatype="&xsd;string">Gonzalez</vcard-rdf:Family>
+        <foaf:age rdf:datatype="&xsd;integer">40</foaf:age>
     </Professor>
 	
 	<University rdf:about="#UPM"/>
